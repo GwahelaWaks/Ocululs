@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mibfa.OCR.Service.Designer", "Mibfa.OCR.Service.Designer\Mibfa.OCR.Service.Designer.csproj", "{5AE66754-C8FC-4E3D-950C-9CB2858A5AE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mibfa.OCR.Service.Library", "Mibfa.OCR.Service.Library\Mibfa.OCR.Service.Library.csproj", "{239BAB93-6E91-40DF-9517-3534DCC1B733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mibfa.OCR.Service.Service", "Mibfa.OCR.Service.Service\Mibfa.OCR.Service.Service.csproj", "{C32B1E26-53CA-451E-8C71-DF75D60E5790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mibfa.OCR.Service.TestApp", "Mibfa.OCR.Service.TestApp\Mibfa.OCR.Service.TestApp.csproj", "{DEBF95AA-5706-433F-9C7C-9E8FE1A88359}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AE66754-C8FC-4E3D-950C-9CB2858A5AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE66754-C8FC-4E3D-950C-9CB2858A5AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE66754-C8FC-4E3D-950C-9CB2858A5AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE66754-C8FC-4E3D-950C-9CB2858A5AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{239BAB93-6E91-40DF-9517-3534DCC1B733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239BAB93-6E91-40DF-9517-3534DCC1B733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239BAB93-6E91-40DF-9517-3534DCC1B733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239BAB93-6E91-40DF-9517-3534DCC1B733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32B1E26-53CA-451E-8C71-DF75D60E5790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32B1E26-53CA-451E-8C71-DF75D60E5790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32B1E26-53CA-451E-8C71-DF75D60E5790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32B1E26-53CA-451E-8C71-DF75D60E5790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEBF95AA-5706-433F-9C7C-9E8FE1A88359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEBF95AA-5706-433F-9C7C-9E8FE1A88359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEBF95AA-5706-433F-9C7C-9E8FE1A88359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEBF95AA-5706-433F-9C7C-9E8FE1A88359}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5704E63-5818-45E2-AFB2-71D56140EF38}
+	EndGlobalSection
+EndGlobal
