@@ -1,0 +1,16 @@
+E:\Gijima\MIBFA Components\Source\Mibfa.OCR.Service\Mibfa.OCR.Service.Designer\bin\Release\Mibfa.OCR.Service.Designer.dll
+E:\Gijima\MIBFA Components\Source\Mibfa.OCR.Service\Mibfa.OCR.Service.Designer\bin\Release\Mibfa.OCR.Service.Designer.pdb
+E:\Gijima\MIBFA Components\Source\Mibfa.OCR.Service\Mibfa.OCR.Service.Designer\bin\Release\Oculus.Imaging.dll
+E:\Gijima\MIBFA Components\Source\Mibfa.OCR.Service\Mibfa.OCR.Service.Designer\bin\Release\PdfSharp.dll
+E:\Gijima\MIBFA Components\Source\Mibfa.OCR.Service\Mibfa.OCR.Service.Designer\bin\Release\Newtonsoft.Json.dll
+E:\Gijima\MIBFA Components\Source\Mibfa.OCR.Service\Mibfa.OCR.Service.Designer\bin\Release\Oculus.Imaging.xml
+E:\Gijima\MIBFA Components\Source\Mibfa.OCR.Service\Mibfa.OCR.Service.Designer\bin\Release\PdfSharp.xml
+E:\Gijima\MIBFA Components\Source\Mibfa.OCR.Service\Mibfa.OCR.Service.Designer\bin\Release\Newtonsoft.Json.xml
+E:\Gijima\MIBFA Components\Source\Mibfa.OCR.Service\Mibfa.OCR.Service.Designer\obj\Release\Mibfa.OCR.Service.Designer.csproj.AssemblyReference.cache
+E:\Gijima\MIBFA Components\Source\Mibfa.OCR.Service\Mibfa.OCR.Service.Designer\obj\Release\Mibfa.OCR.Service.Designer.Designer.resources
+E:\Gijima\MIBFA Components\Source\Mibfa.OCR.Service\Mibfa.OCR.Service.Designer\obj\Release\Mibfa.OCR.Service.Designer.Settings.resources
+E:\Gijima\MIBFA Components\Source\Mibfa.OCR.Service\Mibfa.OCR.Service.Designer\obj\Release\Mibfa.OCR.Service.Designer.csproj.GenerateResource.cache
+E:\Gijima\MIBFA Components\Source\Mibfa.OCR.Service\Mibfa.OCR.Service.Designer\obj\Release\Mibfa.OCR.Service.Designer.csproj.CoreCompileInputs.cache
+E:\Gijima\MIBFA Components\Source\Mibfa.OCR.Service\Mibfa.OCR.Service.Designer\obj\Release\Mibfa.OC.58E2E648.Up2Date
+E:\Gijima\MIBFA Components\Source\Mibfa.OCR.Service\Mibfa.OCR.Service.Designer\obj\Release\Mibfa.OCR.Service.Designer.dll
+E:\Gijima\MIBFA Components\Source\Mibfa.OCR.Service\Mibfa.OCR.Service.Designer\obj\Release\Mibfa.OCR.Service.Designer.pdb
