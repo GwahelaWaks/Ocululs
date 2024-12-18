@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://oculus.mibfa.co.za/Oculus/Services/Launch.asmx?wsdl" docRef="https://oculus.mibfa.co.za/Oculus/Services/Launch.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://oculus.mibfa.co.za/Oculus/Services/Launch.asmx" xmlns:q1="https://www.gijima.com/Oculus" binding="q1:LaunchSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://oculus.mibfa.co.za/Oculus/Services/Launch.asmx" xmlns:q2="https://www.gijima.com/Oculus" binding="q2:LaunchSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

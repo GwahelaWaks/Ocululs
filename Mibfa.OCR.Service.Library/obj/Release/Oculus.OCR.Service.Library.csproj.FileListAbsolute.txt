@@ -1,0 +1,3 @@
+C:\Products\trunk\Oculus 10\Applications\Mibfa.OCR.Service\Mibfa.OCR.Service.Library\obj\Release\Mibfa.OCR.Service.Library.csprojAssemblyReference.cache
+C:\Products\trunk\Oculus 10\Applications\Mibfa.OCR.Service\Mibfa.OCR.Service.Library\obj\Release\Mibfa.OCR.Service.Library.dll
+C:\Products\trunk\Oculus 10\Applications\Mibfa.OCR.Service\Mibfa.OCR.Service.Library\obj\Release\Mibfa.OCR.Service.Library.pdb
