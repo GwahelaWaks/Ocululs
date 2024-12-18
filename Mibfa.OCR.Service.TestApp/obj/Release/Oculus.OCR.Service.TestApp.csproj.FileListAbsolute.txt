@@ -1,0 +1,3 @@
+C:\Products\trunk\Oculus 10\Applications\Mibfa.OCR.Service\Mibfa.OCR.Service.TestApp\obj\Release\Mibfa.OCR.Service.TestApp.Form1.resources
+C:\Products\trunk\Oculus 10\Applications\Mibfa.OCR.Service\Mibfa.OCR.Service.TestApp\obj\Release\Mibfa.OCR.Service.TestApp.Properties.Resources.resources
+C:\Products\trunk\Oculus 10\Applications\Mibfa.OCR.Service\Mibfa.OCR.Service.TestApp\obj\Release\Mibfa.OCR.Service.TestApp.csproj.GenerateResource.cache
