@@ -1,4 +1,0 @@
-C:\Products\trunk\Oculus 10\Applications\Mibfa.OCR.Service\Mibfa.OCR.Service.Service\obj\Release\Mibfa.OCR.Service.Service.csprojAssemblyReference.cache
-C:\Products\trunk\Oculus 10\Applications\Mibfa.OCR.Service\Mibfa.OCR.Service.Service\obj\Release\Mibfa.OCR.Service.Service.ProjectInstaller.resources
-C:\Products\trunk\Oculus 10\Applications\Mibfa.OCR.Service\Mibfa.OCR.Service.Service\obj\Release\Mibfa.OCR.Service.Service.svcOCR.resources
-C:\Products\trunk\Oculus 10\Applications\Mibfa.OCR.Service\Mibfa.OCR.Service.Service\obj\Release\Mibfa.OCR.Service.Service.csproj.GenerateResource.cache
