@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+  Must set the following items:
+	 1 - the Replicate activity's moniker
+-->
+<ocudoc:Process
+	Name="MultiFunctionAcquisitionProcess"
+	Description="Multi Function Acquisition process"
+ 	ID="e6410465-c45b-43c5-bf04-998880e4a470"
+	Type="Oculus.Acquisition.Document"
+	ProcessVersion="fe35d3cd-60eb-4785-9d45-831d5bbd6daf"
+	Location="Initiate"
+	xmlns:ocudoc="https://oculus.co.za/imaging/document/1/0"
+	>
+  <ocudoc:Context>
+    <!--
+    <ocudoc:Variable Name="ReplicationOperation" Value="" />
+    <ocudoc:Variable Name="FragmentID" Value="" />
+    <ocudoc:Variable Name="TargetDirectory" Value="" />
+    <ocudoc:Variable Name="FragmentName" Value="" />
+    -->
+  </ocudoc:Context>
+  <ocudoc:Definition Version="1" InitiatingActivity="Initiate">
+
+    <ocudoc:Transition Name="T0" Description="Always On" From="Initiate" To="MultiIndexQ">
+      <ocudoc:Condition GroupType="Or">
+        <ocudoc:Comparisons>
+          <ocudoc:Comparison Comparison="EqualTo">
+            <!-- <ocudoc:LHS Type="Workflow.Condition.Expression" Value="/ocudoc:Document/ocudoc:Data/ocudoc:Index[@Name='RA_Number']" /> -->
+            <ocudoc:LHS Type="Workflow.Condition.Expression" Value="/ocudoc:Document/ocudoc:Data/ocudoc:Index[@Name='XXXXX']" />
+            <ocudoc:RHS Type="Workflow.Condition.Expression" Value="/X" />
+          </ocudoc:Comparison>
+          <ocudoc:Comparison Comparison="EqualTo">
+            <!--  <ocudoc:LHS Type="Workflow.Condition.Expression" Value="/ocudoc:Document/ocudoc:Data/ocudoc:Index[@Name='RA_Number']/@Value" /> -->
+            <ocudoc:LHS Type="Workflow.Condition.Expression" Value="/ocudoc:Document/ocudoc:Data/ocudoc:Index[@Name='XXXXX']/@Value" />
+            <ocudoc:RHS Type="Workflow.Condition.Value" Value="" />
+          </ocudoc:Comparison>
+        </ocudoc:Comparisons>
+        <ocudoc:Groups />
+      </ocudoc:Condition>
+      <ocudoc:Schedules>
+        <ocudoc:Schedule StartTime="" EndTime="" RestrictedDays="" />
+      </ocudoc:Schedules>
+    </ocudoc:Transition>
+    <ocudoc:Transition Name="T1" Description="Always On" From="MultiIndexQ" To="MFPConvertIndexes">
+      <ocudoc:Schedules>
+        <ocudoc:Schedule StartTime="" EndTime="" RestrictedDays="" />
+      </ocudoc:Schedules>
+    </ocudoc:Transition>
+    <ocudoc:Transition Name="T3" Description="Always On" From="MFPConvertIndexes" To="Store0">
+      <ocudoc:Schedules>
+        <ocudoc:Schedule StartTime="" EndTime="" RestrictedDays="" />
+      </ocudoc:Schedules>
+    </ocudoc:Transition>
+    <ocudoc:Transition Name="T2" Description="Always On" From="Initiate" To="MFPConvertIndexes">
+      <ocudoc:Condition GroupType="And">
+        <ocudoc:Comparisons>
+          <ocudoc:Comparison Comparison="NotEqualTo">
+            <!-- <ocudoc:LHS Type="Workflow.Condition.Expression" Value="/ocudoc:Document/ocudoc:Data/ocudoc:Index[@Name='RA_Number']" /> -->
+            <ocudoc:LHS Type="Workflow.Condition.Expression" Value="/ocudoc:Document/ocudoc:Data/ocudoc:Index[@Name='XXXXX']" />
+            <ocudoc:RHS Type="Workflow.Condition.Expression" Value="/X" />
+          </ocudoc:Comparison>
+          <ocudoc:Comparison Comparison="NotEqualTo">
+            <!-- <ocudoc:LHS Type="Workflow.Condition.Expression" Value="/ocudoc:Document/ocudoc:Data/ocudoc:Index[@Name='RA_Number']/@Value" /> -->
+            <ocudoc:LHS Type="Workflow.Condition.Expression" Value="/ocudoc:Document/ocudoc:Data/ocudoc:Index[@Name='XXXXX']/@Value" />
+            <ocudoc:RHS Type="Workflow.Condition.Value" Value="" />
+          </ocudoc:Comparison>
+        </ocudoc:Comparisons>
+        <ocudoc:Groups />
+      </ocudoc:Condition>
+      <ocudoc:Schedules>
+        <ocudoc:Schedule StartTime="" EndTime="" RestrictedDays="" />
+      </ocudoc:Schedules>
+    </ocudoc:Transition>
+
+    <ocudoc:Activity Name="Initiate" Description="Capture" Type="Oculus.Acquisition.Capture" Moniker="" Locale="" TargetAppName="" />
+    <ocudoc:Activity Name="MultiIndexQ" Description="" Type="Oculus.Acquisition.Queue" Moniker="queue://VM-JMDOCUDEV/NUXEO_INDEX" Locale="VM-JMDOCUDEV" TargetAppName="Indexing" />
+    <ocudoc:Activity Name="MFPConvertIndexes" Description="" Type="Oculus.Acquisition.Queue" Moniker="queue://VM-JMDOCUDEV/__XFORM" Locale="VM-JMDOCUDEV" TargetAppName="Oculus10.Transform.Oculet" />
+    <ocudoc:Activity Name="Store0" Description="" Type="Oculus.Storage.Oculet" Moniker="queue://VM-JMDOCUDEV/__Native" Locale="VM-JMDOCUDEV" TargetAppName="" />
+
+
+  </ocudoc:Definition>
+</ocudoc:Process>
